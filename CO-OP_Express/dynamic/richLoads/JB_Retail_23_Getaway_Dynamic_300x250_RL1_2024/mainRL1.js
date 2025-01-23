@@ -154,3 +154,10 @@ myFT.on('stopTimer',function(){
 
 //@FT4 code block end
 ////////////////////////////////////////
+const d = new Date();
+let year = d.getFullYear();
+const yearElements = document.querySelectorAll("#year");
+
+yearElements.forEach(element => {
+  element.innerHTML = year;
+});
