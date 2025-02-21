@@ -66,8 +66,8 @@ video {
 }
 
 #default_exit {
-  top: 0px;
-  left: 0px;
+  top: -1px;
+  left: -1px;
   width: 300px;
   height: 250px;
   z-index: 500;
@@ -269,5 +269,5 @@ img {
   height: 250px;
   position: absolute;
   top: 0px;
-  left: 0pc;
+  left: 0px;
 }

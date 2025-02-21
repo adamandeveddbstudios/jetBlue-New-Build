@@ -252,3 +252,10 @@ myFT.dispatch('RL2_available');
     myFT.dispatch('RL2_ready_to_play');
 
 */
+const d = new Date();
+let year = d.getFullYear();
+const yearElements = document.querySelectorAll("#year");
+
+yearElements.forEach(element => {
+  element.innerHTML = year;
+});
