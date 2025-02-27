@@ -131,7 +131,7 @@ function animate() {
 
     ////////////////////////////////////////
     //@FT2 code block start
-    // .call(playEndframe, ["param1"], 'frame_END')
+    .call(playEndframe, ["param1"], 'frame_END')
     //@FT2 code block end
     ////////////////////////////////////////
 
